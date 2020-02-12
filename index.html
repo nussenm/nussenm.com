@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew J Nussen</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bgimg" id="Home">
+        <div class="title">
+            <h1>Matt Nussen</h1>
+            <p>Developer - Technology Enthusiast
+            </p>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="nav-links">
+            <li>
+                <a href="#Home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#wid">What I Do</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>
+
+
+    <section class="about-section" id="about">
+        <div class="section-title">
+            <h1 class="text">About</h1>
+        </div>
+        <div class="underline-container">
+            <div class="title-underline">
+            </div>
+        </div>
+        <div class="about-block">
+            <img src="./images/profile.png" alt="">
+            <div class="about-text text">My name is Matt Nussen and I am a
+                Digital Sciences Graduate from Kent State University. This is my online portfolio.
+                I love technology and consider myself an enthusiast. 
+                <br><br>
+                Scroll down to see more about what I can do!
+            </div>
+        </div>
+    </section>
+
+    <section class="what-section" id="wid">
+        <div class="section-title">
+            <h1 class="text">What I Do</h1>
+        </div>
+        <div class="underline-container">
+            <div class="title-underline">
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./images/programming.png">
+                <div class="title-text text">Development</div>
+                <div class="slide-text text">My developmental focus is on building effective 
+                    software solutions using the latest technologies. With my primary goal being performance
+                and effective UI and UX design, I am improving every day and strive for continual growth.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/systems.png">
+                <div class="title-text text">Desktop Support</div>
+                <div class="slide-text text">Extensive PC hardware and software knowledge allows me to ensure
+                    proper system functionality and troubleshoot potential failures.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/aws.png">
+                <div class="title-text text">Amazon Web Services</div>
+                <div class="slide-text text">I build cost-effective cloud solutions using
+                    the latest strategies in cloud technology. Cloud Computing is an ever-evolving domain for business,
+                    and I strive to stay up to date on emerging technologies to assist in performance and
+                    convenience to solve business challenges.
+                </div>
+                </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+
+    <section class="projects-section" id="projects">
+        <div class="projects-block">
+            <div class="section-title text">
+                <h1 class="text">Projects</h1>
+            </div>
+            <div class="underline-container">
+                <div class="title-underline">
+                </div>
+            </div>
+            <div class="projects-container">
+                <div class="card-container">
+                    <span class="text card-text">Kent Parkable</span>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/capstone.png" alt="">
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-link-block">
+                                    <a href=""><img class="logo" src="./images/GitHub-Mark-64px.png" alt=""></a>
+                                    <span class="text">Source</span>
+                                </div>
+                                <div class="card-link-block">
+                                    <a href=""><img class="logo" src="./images/link.png" alt=""></a>
+                                    <span class="text">Link</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="card-container">
+                    <span class="text card-text">Online Portfolio</span>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/nature.png" alt="">
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="card-link-block">
+                                    <a href=""><img class="logo" src="./images/GitHub-Mark-64px.png" alt=""></a>
+                                    <span class="text">Source</span>
+                                </div>
+                                <div class="card-link-block">
+                                    <a href=""><img class="logo" src="./images/link.png" alt=""></a>
+                                    <span class="text">Link</span>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="contact" id="contact">
+            <span class="text">Contact Me: </span>
+            <a href="https://github.com/nussenm" class="github"><img class="logo" src="./images/GitHub-Mark-64px.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/matthew-nussen-3175921a1/" class="linkedin"><img class="logo"
+                    src="./images/LI-In-Bug.png" alt=""></a>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
